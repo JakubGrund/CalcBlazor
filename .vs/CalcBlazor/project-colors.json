@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3e8c9b87-6220-4ac9-b636-36debaa9b0a5": {
+      "ProjectGuid": "3e8c9b87-6220-4ac9-b636-36debaa9b0a5",
+      "DisplayName": "CalcBlazor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
