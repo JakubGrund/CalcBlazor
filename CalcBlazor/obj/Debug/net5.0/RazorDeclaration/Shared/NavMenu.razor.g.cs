@@ -90,7 +90,7 @@ using CalcBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Shared\NavMenu.razor"
+#line 23 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

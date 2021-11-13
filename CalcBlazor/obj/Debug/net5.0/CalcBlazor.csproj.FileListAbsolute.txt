@@ -404,10 +404,6 @@ C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.csproj.
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.RazorComponent.input.cache
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -417,10 +413,6 @@ C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.TagHelp
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.TagHelpers.output.cache
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.RazorCoreGenerate.cache
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
@@ -630,3 +622,8 @@ C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.csproj.
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.dll
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\ref\CalcBlazor.dll
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\CalcBlazor.pdb
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\CalculatorPage.razor.g.cs
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\CalculatorPage.razor.g.cs
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\HomePage.razor.g.cs
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\HomePage.razor.g.cs
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\scopedcss\Pages\CalculatorPage.razor.rz.scp.css
