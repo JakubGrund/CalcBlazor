@@ -91,8 +91,10 @@ using CalcBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 32 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
+#line 67 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
        
+
+    /*Ukazka*/
     private int currentCount = 0;
 
     private void IncrementCount()

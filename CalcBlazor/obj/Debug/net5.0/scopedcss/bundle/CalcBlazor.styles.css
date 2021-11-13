@@ -1,6 +1,96 @@
 /* /Pages/CalculatorPage.razor.rz.scp.css */
 body[b-ho0ov4hsra] {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
 }
+
+.container[b-ho0ov4hsra] {
+    margin-left: 12em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 
+        13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+    max-width: 800px;
+}
+.row[b-ho0ov4hsra] {
+    margin-left: 9px;
+}
+
+    .content[b-ho0ov4hsra] {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.row button[b-ho0ov4hsra] {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffff;
+}
+
+        .row button:hover[b-ho0ov4hsra] {
+            box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1), inset -5px -5px 8px #fff;
+            background: #fff;
+        }
+
+.display #screendisplay[b-ho0ov4hsra] {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #e9ecef, inset -8px -8px 8px #e9ecef;
+}
+
+#eval[b-ho0ov4hsra] {
+    background: #33ffd0;
+    color: #212529;
+}
+
+    #eval:hover[b-ho0ov4hsra] {
+        box-shadow: inset 5px 5px 8px #33ffd0, inset -5px -5px 8px #33ffd0;
+    }
+
+#ac[b-ho0ov4hsra] {
+    background: #a92929;
+    color: #f8f9fa;
+}
+    #ac:hover[b-ho0ov4hsra] {
+        box-shadow: inset 5px 5px 8px #a92929, inset -5px -5px 8px #a92929;
+    }
+
+#ce[b-ho0ov4hsra] {
+    background: #0090a7;
+    color: #f8f9fa;
+}
+    #ce:hover[b-ho0ov4hsra] {
+        box-shadow: inset 5px 5px 8px #0090a7, inset -5px -5px 8px #0090a7;
+    }
+
+
+
+
 /* /Pages/HomePage.razor.rz.scp.css */
 body[b-blz32sgtgq] {
 }
