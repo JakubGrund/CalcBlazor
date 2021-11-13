@@ -1,10 +1,33 @@
 ﻿@page "/counter"
 
+<!--===== Ukazka projektu =====-->
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<!--===== HTML Calculator =====-->
+
+<div class="calculator">
+    <div class="calc-container">
+
+        <div class="output">
+
+        </div>
+
+        
+        <div class="input"></div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
 
 @code {
     private int currentCount = 0;

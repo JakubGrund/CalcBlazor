@@ -627,3 +627,4 @@ C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\Calcul
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\HomePage.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\Razor\Pages\HomePage.razor.g.cs
 C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\scopedcss\Pages\CalculatorPage.razor.rz.scp.css
+C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\obj\Debug\net5.0\scopedcss\Pages\HomePage.razor.rz.scp.css

@@ -85,7 +85,7 @@ using CalcBlazor.Shared;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, "<h1>Hello. Welcome in my new project Blazor Calculator (C#, HTML, CSS and Javascript).</h1>");
+            __builder.AddMarkupContent(0, "<h1 b-blz32sgtgq>Hello. Welcome in my new project Blazor Calculator (C#, HTML, CSS and Javascript).</h1>");
         }
         #pragma warning restore 1998
     }
