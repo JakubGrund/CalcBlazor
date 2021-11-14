@@ -91,7 +91,7 @@ using CalcBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 67 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
+#line 69 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
        
 
     /*Ukazka*/

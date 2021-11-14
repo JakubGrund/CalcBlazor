@@ -71,14 +71,6 @@
         box-shadow: inset 5px 5px 8px #33ffd0, inset -5px -5px 8px #33ffd0;
     }
 
-#ac {
-    background: #a92929;
-    color: #f8f9fa;
-}
-    #ac:hover {
-        box-shadow: inset 5px 5px 8px #a92929, inset -5px -5px 8px #a92929;
-    }
-
 #ce {
     background: #0090a7;
     color: #f8f9fa;
