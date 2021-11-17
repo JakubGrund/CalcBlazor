@@ -94,24 +94,43 @@ using CalcBlazor.Shared;
 #line 76 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
        
 
-    /*Inicializace Result Display*/
+        /*RESULT DISPLAY*/
 
-     public string Result { get; set; }
+         public string Result { get; set; }
 
-        private double _secondnumber;
-        private double _firstnumber;
-        private string _operand;
+            private double _secondnumber;
+            private double _firstnumber;
+            private string _operand;
 
-    // vypsani cisla na display
+        /*BUTTONS COMPONENTS*/
 
-     public void Number(string n)
-     {
-        Result += n;
-     }
+        // vypsani cisla na display
 
+         public void Number(string n)
+         {
+            Result += n;
+         }
 
+        // button clear and cler all
 
+        public void Clear()
+        {
+            Result = "";
+        }
 
+        // button clear space back 
+
+        public void ClearSpaceBack()
+        {
+            if (Result.Length > 0)
+            {
+                Result = Result.Substring(0, Result.Length - 1);
+            }
+            if (Result.Length < 1)
+            {
+                Result = " ";
+            }
+        }
 
 #line default
 #line hidden

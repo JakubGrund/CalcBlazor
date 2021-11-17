@@ -16,9 +16,9 @@
                 <div class="simply">
 
                     <div class="row">
-                        <button class="btnspace">⌫</button>
-                        <button id="ce"class="btnclear">CE</button>
-                        <button class="btnclear" >C</button>
+                        <button class="btnspace" @onclick="ClearSpaceBack">⌫</button>
+                        <button id="ce"class="btnclear" @onclick="Clear">CE</button>
+                        <button class="btnclear" @onclick="Clear" >C</button>
                         <button class="btnplusminus">±</button>
                     </div>
                     <div class="row">
@@ -75,22 +75,43 @@
 
 @code {
 
-    /*Inicializace Result Display*/
+        /*RESULT DISPLAY*/
 
-     public string Result { get; set; }
+         public string Result { get; set; }
 
-        private double _secondnumber;
-        private double _firstnumber;
-        private string _operand;
+            private double _secondnumber;
+            private double _firstnumber;
+            private string _operand;
 
-    // vypsani cisla na display
+        /*BUTTONS COMPONENTS*/
 
-     public void Number(string n)
-     {
-        Result += n;
-     }
+        // vypsani cisla na display
 
+         public void Number(string n)
+         {
+            Result += n;
+         }
 
+        // button clear and cler all
 
+        public void Clear()
+        {
+            Result = "";
+        }
 
+        // button clear space back 
+
+        public void ClearSpaceBack()
+        {
+            if (Result.Length > 0)
+            {
+                Result = Result.Substring(0, Result.Length - 1);
+            }
+            if (Result.Length < 1)
+            {
+                Result = " ";
+            }
+        }
 }
+
+

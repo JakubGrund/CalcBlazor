@@ -85,7 +85,11 @@ body[b-ho0ov4hsra] {
         box-shadow: inset 5px 5px 8px #33ffd0, inset -5px -5px 8px #33ffd0;
     }
 
-
+h1[b-ho0ov4hsra] {
+    font-size: 2rem;
+    position: relative;
+    left: 18.44rem;
+}
 
 
 
