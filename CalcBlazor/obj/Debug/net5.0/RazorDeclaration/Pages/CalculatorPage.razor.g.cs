@@ -91,16 +91,27 @@ using CalcBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 80 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
+#line 76 "C:\Users\Jakub\Desktop\CalcBlazor\CalcBlazor\Pages\CalculatorPage.razor"
        
 
-    /*Ukazka*/
-    private int currentCount = 0;
+    /*Inicializace Result Display*/
 
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
+     public string Result { get; set; }
+
+        private double _secondnumber;
+        private double _firstnumber;
+        private string _operand;
+
+    // vypsani cisla na display
+
+     public void Number(string n)
+     {
+        Result += n;
+     }
+
+
+
+
 
 #line default
 #line hidden

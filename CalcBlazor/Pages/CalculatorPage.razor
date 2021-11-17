@@ -1,18 +1,14 @@
 ﻿@page "/counter"
 
 <!--===== Ukazka projektu =====-->
-<h1>Counter</h1>
-
-<p>Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<h1>Scientific calculator</h1>
 
 <!--===== HTML Calculator =====-->
 
    <div class="container">
 
             <div class="display">
-                <input id="screendisplay" type="text" placeholder="0">
+                <input @bind="Result" id="screendisplay" type="text" placeholder="0">
             </div>
 
             <div class="buttons">
@@ -26,26 +22,26 @@
                         <button class="btnplusminus">±</button>
                     </div>
                     <div class="row">
-                        <button class="value">7</button>
-                        <button class="value">8</button>
-                        <button class="value">9</button>
+                        <button class="value" @onclick="@(e => Number("7"))">7</button>
+                        <button class="value" @onclick="@(e => Number("8"))">8</button>
+                        <button class="value" @onclick="@(e => Number("9"))">9</button>
                         <button class="operator">÷</button>                      
                     </div>
                      <div class="row">
-                        <button class="value">4</button>
-                        <button class="value">5</button>
-                        <button class="value">6</button>
+                        <button class="value" @onclick="@(e => Number("4"))">4</button>
+                        <button class="value" @onclick="@(e => Number("5"))">5</button>
+                        <button class="value" @onclick="@(e => Number("6"))">6</button>
                         <button class="operator"> × </button>
                     </div>
                     <div class="row">
-                        <button class="value">1</button>
-                        <button class="value">2</button>
-                        <button class="value">3</button>
+                        <button class="value" @onclick="@(e => Number("1"))">1</button>
+                        <button class="value" @onclick="@(e => Number("2"))">2</button>
+                        <button class="value" @onclick="@(e => Number("3"))">3</button>
                         <button class="operator">-</button>
                     </div>
                     <div class="row">
-                        <button class="value">0</button>
-                        <button class="value">.</button>
+                        <button class="value" @onclick="@(e => Number("0"))">0</button>
+                        <button class="value" @onclick="@(e => Number("."))">.</button>
                         <button id="eval" class="btnresult">=</button>
                         <button class="operator">+</button>
                     </div>
@@ -79,11 +75,22 @@
 
 @code {
 
-    /*Ukazka*/
-    private int currentCount = 0;
+    /*Inicializace Result Display*/
 
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
+     public string Result { get; set; }
+
+        private double _secondnumber;
+        private double _firstnumber;
+        private string _operand;
+
+    // vypsani cisla na display
+
+     public void Number(string n)
+     {
+        Result += n;
+     }
+
+
+
+
 }
